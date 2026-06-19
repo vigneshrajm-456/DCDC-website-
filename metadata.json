@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: About DCDC",
+  "description": "A premium, interactive Bento Grid showcasing DCDC\u0027s vision, mission, legacy, faculty coordinator, programs, and core values.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

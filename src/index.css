@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-dark-bg: #06080D;
+  --color-sec-bg: #0D1118;
+  --color-card-bg: #131A24;
+  --color-accent-blue: #2458FF;
+  --color-accent-gold: #E5B93C;
+  --color-accent-coral: #FF5A7A;
+}
+
+/* Custom global styles for the Digital PCB Museum aesthetic */
+html, body {
+  background: #06080D;
+  color: #D8DEE8;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(36, 88, 255, 0.3) #06080D;
+}
+
+/* Custom scrollbar for webkit */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #06080D;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(36, 88, 255, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(36, 88, 255, 0.5);
+}
+
+/* Spotlight glow utility */
+.spotlight-glow {
+  position: absolute;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, rgba(59, 130, 246, 0.05) 50%, rgba(0, 0, 0, 0) 100%);
+  filter: blur(40px);
+}
+
+/* Premium Rotating Border Gradient Animation */
+@keyframes premium-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.animate-border-rotate {
+  animation: premium-rotate 6s linear infinite;
+}
+
+.animate-border-rotate-fast {
+  animation: premium-rotate 4s linear infinite;
+}
+
+@keyframes aura-rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.animate-aura-rotate {
+  animation: aura-rotate 18s linear infinite;
+}
+
+.bento-card-glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* PCB signal active flows */
+@keyframes signal-pulse-flow {
+  0% {
+    stroke-dashoffset: 32;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-signal-flow-blue {
+  stroke-dasharray: 6 12;
+  animation: signal-pulse-flow 2s linear infinite;
+}
+
+.animate-signal-flow-gold {
+  stroke-dasharray: 8 16;
+  animation: signal-pulse-flow 2.8s linear infinite;
+}
+
+/* Hide scrollbars for Chrome, Safari, Opera, Firefox and IE/Edge */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, -apple-system, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --color-obsidian: #030303;
+  --color-charcoal: #0B0B0C;
+  --color-stealth: #444446;
+  --color-acid-lime: #DDF32E;
+  --color-neon-purple: #A347FF;
+  --color-cyber-cyan: #2EE9F3;
+  --color-stark-white: #FFFFFF;
+  --color-tech-silver: #B5B5B6;
+
+  --color-deep-midnight: #030303;
+  --color-carbon-navy: #0B0B0C;
+  --color-graphite-blue: #0B0B0C;
+  
+  --color-pcb-blue: #DDF32E;
+  --color-circuit-gold: #A347FF;
+  --color-neon-coral: #2EE9F3;
+  
+  --color-pure-white: #FFFFFF;
+  --color-cool-silver: #B5B5B6;
+  --color-muted-slate: #444446;
+
+  --color-dark-bg: #030303;
+  --color-dark-card: #0B0B0C;
+  --color-dark-border: #444446;
+}
+
+/* Base modern scrollbar configuration and global body setup */
+body {
+  background-color: #030303;
+  color: #B5B5B6;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Cyberpunk atmospheric ambient backdrop */
+.bg-shader-sunset {
+  background-color: #030303;
+  background-image: 
+    radial-gradient(circle at 50% -20%, rgba(163, 71, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 10% 30%, rgba(46, 233, 243, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 90% 70%, rgba(221, 243, 46, 0.03) 0%, transparent 40%);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030303;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444446;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DDF32E;
+}
+
+/* Hide scrollbar utilities for touch slides */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-dash: none;
+  scrollbar-width: none;
+}

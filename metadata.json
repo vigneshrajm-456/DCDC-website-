@@ -1,0 +1,6 @@
+{
+  "name": "DCDC Cinema Gallery",
+  "description": "A premium editorial-style technology exhibition gallery for the DCDC Digital Electronics & Club Culture creative studios, designed with high-fashion minimal styling, sleek horizontal cinematic transitions, and customized ambient highlights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

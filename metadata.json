@@ -1,0 +1,6 @@
+{
+  "name": "DCDC - Contact Us & Footer",
+  "description": "Premium Contact Us & Footer section for Digital Communication & Design Club (DCDC), Department of ECE, SRMIST Ramapuram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Futureblox Team",
+  "description": "A beautifully styled corporate team and directory page for Futureblox containing custom rounded picture collages, role filters, social integrations, and interactive bios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

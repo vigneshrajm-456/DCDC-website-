@@ -1,0 +1,6 @@
+{
+  "name": "DCDC 2026 Calendar",
+  "description": "An interactive, isometric journey showcasing DCDC upcoming events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -13,7 +13,7 @@ export default function WorkshopsCard({ className = "" }: { className?: string }
         "https://lh3.googleusercontent.com/d/1nn_Y0D-4DfZE5FMcZLHYOnzB5l5rbdFI",
         "https://drive.google.com/uc?export=view&id=1nn_Y0D-4DfZE5FMcZLHYOnzB5l5rbdFI"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0086.jpg"
       imageAlt="Students collaborating inside creative technology workshop lab environment"
       className={className}
       imagePositionClass="object-[center_25%]"

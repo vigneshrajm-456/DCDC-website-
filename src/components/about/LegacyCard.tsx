@@ -15,7 +15,7 @@ export default function LegacyCard({ className = "" }: { className?: string }) {
         "/assets/legacy.jpeg",
         "/assets/legacy.webp"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0090.jpg"
       imageAlt="DCDC Legacy milestones, glowing pathways"
       className={className}
       imagePositionClass="object-[center_30%]"

@@ -63,9 +63,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
   const floatingFrames = [
     {
       id: 1,
-      title: "Creative Workshop",
-      subtitle: "Interactive Sessions",
-      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "IdeaForge 2026",
+      subtitle: "Innovation & Product Building",
+      image: "/images/events/IDEAFORGE.jpg",
       position: "left-[1%] xl:left-[3%] 2xl:left-[5vw] top-[30%] lg:top-[34%] w-64 xl:w-72",
       delay: 0,
       rotateX: 2,
@@ -76,9 +76,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 2,
-      title: "Community Event",
-      subtitle: "SRMIST Club Gathering",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "Hackathon",
+      subtitle: "24-Hour Coding Challenge",
+      image: "/images/events/TINKATHON.jpg",
       position: "left-[4%] xl:left-[7%] 2xl:left-[11vw] bottom-[11%] w-56 xl:w-64",
       delay: 1.5,
       rotateX: -4,
@@ -89,9 +89,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 3,
-      title: "Project Showcase",
-      subtitle: "Innovation Core",
-      image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "Leadership Training",
+      subtitle: "Developing Future Leaders",
+      image: "/images/events/IAP.jpg",
       position: "right-[1%] xl:right-[3%] 2xl:right-[5vw] top-[30%] lg:top-[34%] w-64 xl:w-72",
       delay: 0.8,
       rotateX: 2,
@@ -102,9 +102,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 4,
-      title: "Team Collaboration",
-      subtitle: "Design Culture Jams",
-      image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "C++ Workshop",
+      subtitle: "Core Programming Fundamentals",
+      image: "/images/events/LEADERSHIP_TRAINING.jpg",
       position: "right-[4%] xl:right-[7%] 2xl:right-[11vw] bottom-[11%] w-56 xl:w-64",
       delay: 2.2,
       rotateX: -3,
@@ -115,9 +115,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 5,
-      title: "Design Workshop",
-      subtitle: "Creative Direction",
-      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "Power BI Workshop",
+      subtitle: "Data Analytics & Visualization",
+      image: "/images/events/POWERBI_WORKSHOP.jpg",
       position: "left-[5%] xl:left-[9%] 2xl:left-[13vw] top-[10%] w-56 xl:w-64",
       delay: 0.5,
       rotateX: 4,
@@ -128,9 +128,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 6,
-      title: "App Development",
-      subtitle: "Digital Design & Craft",
-      image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&h=450&q=80",
+      title: "Beyond the Circuits",
+      subtitle: "Innovation Beyond Electronics",
+      image: "/images/events/ANTENNA_WORKSHOP.jpg",
       position: "right-[5%] xl:right-[9%] 2xl:right-[13vw] top-[10%] w-56 xl:w-64",
       delay: 1.2,
       rotateX: 4,
@@ -375,15 +375,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
             fill="url(#beamBlueSoft)" 
             filter="url(#galleryBeamBlur)"
             animate={{
-              points: [
-                "470,10 550,10 650,1080 150,1080",
-                "470,10 550,10 610,1080 120,1080",
-                "470,10 550,10 650,1080 150,1080"
-              ],
               opacity: hoveredCardId === 1 || hoveredCardId === 2 || hoveredCardId === 5 ? 1.0 : hoveredCardId !== null ? 0.32 : 0.72
             }}
             transition={{ 
-              points: { duration: 11, repeat: Infinity, ease: "easeInOut" },
               opacity: { duration: 0.45, ease: "easeInOut" }
             }}
           />
@@ -394,15 +388,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
             fill="url(#beamCyanSoft)" 
             filter="url(#galleryBeamBlur)"
             animate={{
-              points: [
-                "590,10 650,10 880,1080 480,1080",
-                "590,10 650,10 900,1080 500,1080",
-                "590,10 650,10 880,1080 480,1080"
-              ],
               opacity: hoveredCardId === 5 || hoveredCardId === 1 || hoveredCardId === 2 ? 1.0 : hoveredCardId !== null ? 0.32 : 0.55
             }}
             transition={{ 
-              points: { duration: 13, repeat: Infinity, ease: "easeInOut", delay: 1 },
               opacity: { duration: 0.45, ease: "easeInOut" }
             }}
           />
@@ -413,15 +401,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
             fill="url(#beamRightBlue)" 
             filter="url(#galleryBeamBlur)"
             animate={{
-              points: [
-                "1450,10 1370,10 1270,1080 1770,1080",
-                "1450,10 1370,10 1310,1080 1810,1080",
-                "1450,10 1370,10 1270,1080 1770,1080"
-              ],
               opacity: hoveredCardId === 3 || hoveredCardId === 4 || hoveredCardId === 6 ? 1.0 : hoveredCardId !== null ? 0.32 : 0.72
             }}
             transition={{ 
-              points: { duration: 11, repeat: Infinity, ease: "easeInOut", delay: 0.5 },
               opacity: { duration: 0.45, ease: "easeInOut" }
             }}
           />
@@ -432,15 +414,9 @@ export default function Hero({ onJoinClick }: HeroProps) {
             fill="url(#beamCyanSoft)" 
             filter="url(#galleryBeamBlur)"
             animate={{
-              points: [
-                "1330,10 1270,10 1040,1080 1440,1080",
-                "1330,10 1270,10 1010,1080 1410,1080",
-                "1330,10 1270,10 1040,1080 1440,1080"
-              ],
               opacity: hoveredCardId === 6 || hoveredCardId === 3 || hoveredCardId === 4 ? 1.0 : hoveredCardId !== null ? 0.32 : 0.55
             }}
             transition={{ 
-              points: { duration: 13, repeat: Infinity, ease: "easeInOut", delay: 1.5 },
               opacity: { duration: 0.45, ease: "easeInOut" }
             }}
           />
@@ -551,6 +527,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
                     <img
                       src={frame.image}
                       alt={frame.title}
+                      loading="lazy"
                       className="w-full h-full object-cover transition-all duration-700 filter saturate-[0.6] contrast-[0.95] group-hover:saturate-100 group-hover:contrast-[1.15] ease-out scale-100 group-hover:scale-106"
                       referrerPolicy="no-referrer"
                     />
@@ -670,14 +647,14 @@ export default function Hero({ onJoinClick }: HeroProps) {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.95, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-            className="font-sans text-5xl md:text-7xl font-bold tracking-tight text-white leading-[1.05] antialiased select-none"
+            className="font-sans text-4xl md:text-6xl font-bold tracking-tight text-white leading-[1.05] antialiased select-none"
           >
-            Where Ideas <br />
+            Legacy That <br />
             <span className="bg-gradient-to-r from-white via-[#D8DEE8] to-white/70 bg-clip-text text-transparent">
-              Become
+              Stands Beyond
             </span>{' '}
             <span className="relative inline-block text-white">
-              Legacy
+              Time
             </span>
         
           </motion.h1>

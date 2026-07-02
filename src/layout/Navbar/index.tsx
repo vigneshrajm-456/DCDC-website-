@@ -86,7 +86,7 @@ export default function Navbar({ onVaultClick, onContactClick }: NavbarProps) {
           {/* Logo with elegant hover animation */}
           <div 
             onClick={() => scrollToSection('home')} 
-            className="flex items-center gap-4 cursor-pointer group select-none relative"
+            className="flex items-center gap-3 cursor-pointer group select-none relative"
             aria-label="DCDC SRMIST Home"
           >
             <div className="relative overflow-hidden rounded-xl border border-white/20 group-hover:border-[#E5B93C]/60 bg-[#090D16]/90 p-1 w-14 h-14 flex items-center justify-center transition-all duration-300 shadow-[0_4px_12px_rgba(0,0,0,0.5)] group-hover:shadow-[0_8px_24px_rgba(229,185,60,0.2)] group-hover:scale-105 active:scale-95">
@@ -116,11 +116,11 @@ export default function Navbar({ onVaultClick, onContactClick }: NavbarProps) {
             </div>
             
             {/* Context Logo Text in Navbar */}
-            <div className="flex flex-col text-left transition-colors duration-300">
-              <span className="font-sans font-black tracking-[0.2em] text-white text-base group-hover:text-[#E2E8F0] leading-none mb-1">
+            <div className="flex flex-col justify-center text-left transition-colors duration-300 gap-0.5">
+              <span className="font-sans font-black tracking-[0.2em] text-white text-base md:text-lg group-hover:text-[#E2E8F0] leading-none">
                 DCDC
               </span>
-              <span className="font-mono text-[10px] tracking-[0.3em] text-[#D8DEE8]/70 group-hover:text-[#E2E8F0]/90 leading-none">
+              <span className="font-mono text-[9px] md:text-[10px] tracking-[0.3em] text-[#D8DEE8]/70 group-hover:text-[#E2E8F0]/90 leading-none">
                 SRMIST
               </span>
             </div>

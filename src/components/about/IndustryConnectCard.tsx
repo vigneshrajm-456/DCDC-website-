@@ -13,7 +13,7 @@ export default function IndustryConnectCard({ className = "" }: { className?: st
         "https://lh3.googleusercontent.com/d/1Dpr4T8PmCYvK71zuW-UkeV466LCDNbZ7",
         "https://drive.google.com/uc?export=view&id=1Dpr4T8PmCYvK71zuW-UkeV466LCDNbZ7"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0092.jpg"
       imageAlt="Technology conference networking with experts"
       className={className}
       imagePositionClass="object-[center_20%]"

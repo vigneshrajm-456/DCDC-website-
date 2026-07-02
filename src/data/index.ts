@@ -6,7 +6,7 @@ export const MILESTONES: Milestone[] = [
     year: '2016',
     title: 'The Spark',
     description: 'PLACEHOLDER: A handful of students from media and computing backgrounds began informally meeting to explore design and technology projects together — the earliest seed of what would become DCDC.',
-    image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0015.jpg',
     tag: 'EARLY SPARK'
   },
   {
@@ -14,7 +14,7 @@ export const MILESTONES: Milestone[] = [
     year: '2017',
     title: 'Finding Our Footing',
     description: 'PLACEHOLDER: The informal group started organizing small peer-learning sessions and campus meetups, gradually building the foundations of a shared identity and purpose.',
-    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0017.jpg',
     tag: 'FOUNDATIONS'
   },
   {
@@ -22,7 +22,7 @@ export const MILESTONES: Milestone[] = [
     year: '2018',
     title: 'The Genesis',
     description: 'Founded as a technical interest group within SRMIST to bridge the gap between media, design thinking, and technical engineering.',
-    image: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0018.jpg',
     tag: 'FOUNDATION'
   },
   {
@@ -30,7 +30,7 @@ export const MILESTONES: Milestone[] = [
     year: '2019',
     title: 'Flagship Seminar Launch',
     description: 'Launched our first hands-on UI/UX & Web architecture workshop, inviting 150+ students into collaborative development paradigms.',
-    image: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0019.jpg',
     tag: 'FIRST WORKSHOP'
   },
   {
@@ -38,7 +38,7 @@ export const MILESTONES: Milestone[] = [
     year: '2020',
     title: 'Going Digital',
     description: 'PLACEHOLDER: Adapted to remote collaboration, moving workshops and mentorship online and reaching a wider base of students beyond the physical campus.',
-    image: 'https://images.unsplash.com/photo-1591453089816-0fbb971b454c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0020.jpg',
     tag: 'REMOTE PIVOT'
   },
   {
@@ -46,7 +46,7 @@ export const MILESTONES: Milestone[] = [
     year: '2021',
     title: 'Interactive Labs & Mentorship',
     description: 'Transformed into specialized creative labs. Initiated physical and digital peer-learning pathways and active team incubations.',
-    image: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0053.jpg',
     tag: 'COMMUNITY GROWTH'
   },
   {
@@ -54,7 +54,7 @@ export const MILESTONES: Milestone[] = [
     year: '2022',
     title: 'Cross-Disciplinary Expansion',
     description: 'PLACEHOLDER: Broadened our scope beyond design and code, welcoming storytelling, media production, and event-craft into the club\'s core disciplines.',
-    image: 'https://images.unsplash.com/photo-1517245386807-9accdfe17448?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0055.jpg',
     tag: 'CROSS-DISCIPLINARY'
   },
   {
@@ -62,7 +62,7 @@ export const MILESTONES: Milestone[] = [
     year: '2023',
     title: 'High-Tech Prototypes Shipped',
     description: 'Engineered hardware-software integrations including custom IoT devices, autonomous sensor rigs, and interactive web tools.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0057.jpg',
     tag: 'MAJOR PROJECTS'
   },
   {
@@ -70,7 +70,7 @@ export const MILESTONES: Milestone[] = [
     year: '2024',
     title: 'Scaling Our Impact',
     description: 'PLACEHOLDER: Grew our membership and event reach significantly, partnering with other campus communities and running our largest workshop series to date.',
-    image: 'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0063.jpg',
     tag: 'SCALE & REACH'
   },
   {
@@ -78,7 +78,7 @@ export const MILESTONES: Milestone[] = [
     year: '2025',
     title: 'SRMIST Flagship Prestige',
     description: 'DCDC elevated to SRMIST’s gold standard student group for multidisciplinary technical products and high-fidelity storytelling.',
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0064.jpg',
     tag: 'INNOVATION EXPANSION'
   },
   {
@@ -86,7 +86,7 @@ export const MILESTONES: Milestone[] = [
     year: '2026 & Beyond',
     title: 'Incubator & Speculative Lab',
     description: 'Focusing on artificial intelligence, spatial user interfaces, and custom physical interaction systems to shape tomorrow.',
-    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
+    image: '/images/workshop/IMG-20260121-WA0068.jpg',
     tag: 'FUTURE VISION'
   }
 ];
@@ -127,7 +127,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g1',
     title: 'Design Critique Workshop',
     category: 'workshops',
-    image: 'https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0070.jpg',
     description: 'DCDC designers gathering to dissect responsive UI paradigms and typography systems.',
     date: 'October 2024'
   },
@@ -135,7 +135,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g2',
     title: 'Collaborative Code Lab',
     category: 'collaborations',
-    image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0072.jpg',
     description: 'Multi-disciplinary squads building creative frontend modules in a high-focus environment.',
     date: 'January 2025'
   },
@@ -143,7 +143,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g3',
     title: 'Flagship Showcase Celebration',
     category: 'events',
-    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0074.jpg',
     description: 'Commending the tireless project squads on the campus auditorium stage during the main symposium.',
     date: 'March 2025'
   },
@@ -151,7 +151,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g4',
     title: 'Testing IoT Prototypes',
     category: 'innovations',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0076.jpg',
     description: 'Our physical makerspace lab validating gesture-enabled microcontrollers and wireless modules.',
     date: 'April 2025'
   },
@@ -159,7 +159,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g5',
     title: 'Aesthetic Interfaces Seminar',
     category: 'workshops',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0078.jpg',
     description: 'Demystifying how high-end agencies pair typography, motion, and contrast for visual prestige.',
     date: 'August 2025'
   },
@@ -167,7 +167,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
     id: 'g6',
     title: 'DCDC Interactive Sandbox',
     category: 'innovations',
-    image: 'https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=850&q=80',
+    image: '/images/workshop/IMG-20260121-WA0080.jpg',
     description: 'Freshmen exploring creative computing tools and live visual installations under mentor guidance.',
     date: 'September 2025'
   }

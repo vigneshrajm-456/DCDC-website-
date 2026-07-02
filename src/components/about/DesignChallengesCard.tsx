@@ -13,7 +13,7 @@ export default function DesignChallengesCard({ className = "" }: { className?: s
         "https://lh3.googleusercontent.com/d/12mZAvboIN9sXwqCN9ExvKH_s9auWdiSi",
         "https://drive.google.com/uc?export=view&id=12mZAvboIN9sXwqCN9ExvKH_s9auWdiSi"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0082.jpg"
       imageAlt="UI wireframe, sketch, and product mockups visually aligned"
       className={className}
       imagePositionClass="object-[center_20%]"

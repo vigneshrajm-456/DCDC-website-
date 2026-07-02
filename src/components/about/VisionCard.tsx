@@ -12,7 +12,7 @@ export default function VisionCard({ className = "" }: { className?: string }) {
         "https://lh3.googleusercontent.com/d/15xKzVUlbqWhHNUksV9MuwHtw6g6rgwdK",
         "https://drive.google.com/uc?export=view&id=15xKzVUlbqWhHNUksV9MuwHtw6g6rgwdK"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0084.jpg"
       imageAlt="DCDC Vision of digital communication and futuristic designs, academic teamwork"
       className={className}
       imagePositionClass="object-[center_25%]"

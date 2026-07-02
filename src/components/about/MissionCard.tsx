@@ -13,7 +13,7 @@ export default function MissionCard({ className = "" }: { className?: string }) 
         "https://lh3.googleusercontent.com/d/1hA-4LUPAHlkNwgN1JUuJm3iUr-rMlhDW",
         "https://drive.google.com/uc?export=view&id=1hA-4LUPAHlkNwgN1JUuJm3iUr-rMlhDW"
       ]}
-      fallbackUrl="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=1200"
+      fallbackUrl="/images/workshop/IMG-20260121-WA0088.jpg"
       imageAlt="DCDC Mission collaborative engineering and creative design workspace"
       className={className}
       imagePositionClass="object-[center_2%]"

@@ -24,7 +24,7 @@ export default function TeamHeroCollage({ members, onSelectMember }: TeamHeroCol
     // Column 1 (Far Left)
     [
       { memberId: 'Thamarai Selvan S', aspectClass: 'aspect-[3.2/4]', roundedClass: 'rounded-t-[140px] rounded-b-[140px]' },
-      { memberId: 'annapoorani', aspectClass: 'aspect-[1.1/1]', roundedClass: 'rounded-[110px_110px_30px_110px]' }
+      { memberId: 'Shagun Sahu', aspectClass: 'aspect-[1.1/1]', roundedClass: 'rounded-[110px_110px_30px_110px]' }
     ],
     // Column 2 (Mid Left)
     [
@@ -34,7 +34,7 @@ export default function TeamHeroCollage({ members, onSelectMember }: TeamHeroCol
     // Column 3 (Absolute Center)
     [
       { memberId: 'Mridula MVL', aspectClass: 'aspect-[1/1]', roundedClass: 'rounded-full' },
-      { memberId: 'Shagun Sahu', aspectClass: 'aspect-[2.5/4]', roundedClass: 'rounded-t-[150px] rounded-b-[150px]', isCenterPiece: true },
+      { memberId: 'annapoorani', aspectClass: 'aspect-[2.5/4]', roundedClass: 'rounded-t-[150px] rounded-b-[150px]', isCenterPiece: true },
       { memberId: 'Kanishk Balaji K S', aspectClass: 'aspect-[1.1/1]', roundedClass: 'rounded-[30px_110px_110px_110px]' }
     ],
     // Column 4 (Mid Right)
@@ -176,3 +176,4 @@ export default function TeamHeroCollage({ members, onSelectMember }: TeamHeroCol
     </section>
   );
 }
+

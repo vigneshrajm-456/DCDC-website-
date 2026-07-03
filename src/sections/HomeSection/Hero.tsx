@@ -128,7 +128,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 6,
-      title: "Beyond the Circuits",
+      title: "ANTENNA WORKSHOP",
       subtitle: "Innovation Beyond Electronics",
       image: "/images/events/ANTENNA_WORKSHOP.jpg",
       position: "right-[5%] xl:right-[9%] 2xl:right-[13vw] top-[10%] w-56 xl:w-64",

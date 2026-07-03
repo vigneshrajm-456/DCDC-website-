@@ -76,7 +76,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 2,
-      title: "Hackathon",
+      title: "TINKATHON",
       subtitle: "24-Hour Coding Challenge",
       image: "/images/events/TINKATHON.jpg",
       position: "left-[4%] xl:left-[7%] 2xl:left-[11vw] bottom-[11%] w-56 xl:w-64",
@@ -89,8 +89,8 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 3,
-      title: "Leadership Training",
-      subtitle: "Developing Future Leaders",
+      title: "IAP",
+      subtitle: "FINANCIAL AWARENENSS",
       image: "/images/events/IAP.jpg",
       position: "right-[1%] xl:right-[3%] 2xl:right-[5vw] top-[30%] lg:top-[34%] w-64 xl:w-72",
       delay: 0.8,
@@ -102,8 +102,8 @@ export default function Hero({ onJoinClick }: HeroProps) {
     },
     {
       id: 4,
-      title: "C++ Workshop",
-      subtitle: "Core Programming Fundamentals",
+      title: "LEADERSHIP TRAINING",
+      subtitle: "Developing Future Leaders",
       image: "/images/events/LEADERSHIP_TRAINING.jpg",
       position: "right-[4%] xl:right-[7%] 2xl:right-[11vw] bottom-[11%] w-56 xl:w-64",
       delay: 2.2,

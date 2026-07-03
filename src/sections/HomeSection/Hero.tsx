@@ -143,7 +143,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
 
   return (
     <section 
-      className="relative min-h-screen w-full bg-[#030509] pt-28 pb-32 md:pb-40 flex items-center justify-center overflow-hidden"
+      className="relative min-h-screen w-full bg-[#030509] pt-28 md:pt-28 pb-32 md:pb-40 flex items-start md:items-center justify-center overflow-hidden"
     >
       {/* 1. High-Contrast Blueprint Space Grid Background */}
       <motion.div 
@@ -590,7 +590,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       </div>
 
       {/* 8. Center-Focused Content Container */}
-      <div className="relative z-20 max-w-4xl mx-auto px-6 text-center space-y-8 flex flex-col items-center">
+      <div className="relative z-20 w-full max-w-4xl mx-auto px-6 text-center space-y-8 flex flex-col items-center">
         
         {/* DCDC Premium Diagonal PCB Logo Exhibit (Official Vector Blueprint) */}
         <motion.div

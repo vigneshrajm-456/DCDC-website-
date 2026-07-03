@@ -707,7 +707,67 @@ export default function Hero({ onJoinClick }: HeroProps) {
           </motion.button>
         </motion.div>
  
-        {/* Small Scroll Prompt Indicator */}
+        {/* Mobile-Only Horizontal Scroll Carousel for Showcase Cards */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          className="relative z-30 lg:hidden w-[calc(100%+3rem)] -mx-6 mt-12 mb-4"
+        >
+          <div 
+            className="flex overflow-x-auto gap-5 px-6 pb-6 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden" 
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitOverflowScrolling: 'touch' }}
+          >
+            {floatingFrames.map((frame) => (
+              <div key={`mobile-frame-${frame.id}`} className="min-w-[260px] sm:min-w-[280px] flex-shrink-0 snap-center relative">
+                <motion.div
+                  className="w-full bg-gradient-to-b from-[#1c263c] via-[#0D1322] to-[#04060B] rounded-[24px] p-2.5 pb-3.5 border border-white/15 shadow-[0_15px_35px_rgba(0,0,0,0.8),_inset_0_1px_5px_rgba(255,255,255,0.25)] overflow-hidden flex flex-col relative"
+                  whileTap={{ scale: 0.98 }}
+                >
+                  {/* Glass Highlights */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-black/40 pointer-events-none rounded-[23px]" />
+                  <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-400/50 to-transparent pointer-events-none z-10" />
+                  
+                  {/* Image Container */}
+                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-[16px] bg-black border border-white/10 shadow-[inner_0_4px_12px_rgba(0,0,0,0.9)]">
+                    <img
+                      src={frame.image}
+                      alt={frame.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover filter saturate-[0.8] contrast-[1.05]"
+                      referrerPolicy="no-referrer"
+                    />
+                    <div className="absolute inset-y-0 left-0 w-[12%] bg-gradient-to-r from-black/80 to-transparent pointer-events-none mix-blend-multiply" />
+                    <div className="absolute inset-y-0 right-0 w-[12%] bg-gradient-to-l from-black/80 to-transparent pointer-events-none mix-blend-multiply" />
+                    <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/95 via-black/30 to-transparent pointer-events-none" />
+                    
+                    <div 
+                      className="absolute inset-x-0 top-0 h-[45%] bg-gradient-to-b from-white/[0.18] to-transparent pointer-events-none mix-blend-screen opacity-90"
+                      style={{ clipPath: "ellipse(70% 100% at 50% 0%)" }}
+                    />
+                  </div>
+                  
+                  {/* Info Area */}
+                  <div className="pt-3 pb-0.5 px-2 select-none space-y-1 text-left relative z-20">
+                    <div className="flex items-center justify-between">
+                      <span className="font-mono text-[10px] tracking-[0.25em] text-[#3B82F6] font-extrabold">
+                        EXHIBIT 0{frame.id}
+                      </span>
+                    </div>
+                    
+                    <h4 className="font-sans text-[13px] font-black text-white tracking-tight leading-tight uppercase">
+                      {frame.title}
+                    </h4>
+                    
+                    <p className="font-mono text-[9px] tracking-wide text-gray-300 font-bold opacity-85">
+                      {frame.subtitle}
+                    </p>
+                  </div>
+                </motion.div>
+              </div>
+            ))}
+          </div>
+        </motion.div>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}

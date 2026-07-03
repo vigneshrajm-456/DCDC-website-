@@ -143,7 +143,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
 
   return (
     <section 
-      className="relative min-h-screen w-full bg-[#030509] pt-28 md:pt-28 pb-32 md:pb-40 flex items-start md:items-center justify-center overflow-hidden"
+      className="relative min-h-screen w-full bg-[#030509] pt-20 md:pt-28 pb-20 md:pb-40 flex items-center justify-center overflow-hidden"
     >
       {/* 1. High-Contrast Blueprint Space Grid Background */}
       <motion.div 
@@ -170,7 +170,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       {/* Left Spotlight Rail */}
       <motion.div 
         style={{ y: spotlightsY }}
-        className="absolute top-0 left-[18%] lg:left-[22%] xl:left-[24%] w-[280px] h-[80px] pointer-events-none z-30 hidden lg:block"
+        className="absolute top-0 left-[18%] lg:left-[22%] xl:left-[24%] w-[280px] h-[80px] pointer-events-none z-30 hidden md:block"
       >
         <div className="absolute top-6 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-slate-600/40 to-transparent shadow-[0_3px_5px_rgba(0,0,0,0.95)]" />
         <div className="absolute top-0 left-[25%] w-[3px] h-6 bg-gradient-to-b from-black via-slate-700 to-[#101726] border-r border-white/5" />
@@ -248,7 +248,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       {/* Right Spotlight Rail */}
       <motion.div 
         style={{ y: spotlightsY }}
-        className="absolute top-0 right-[18%] lg:right-[22%] xl:right-[24%] w-[280px] h-[80px] pointer-events-none z-30 hidden lg:block"
+        className="absolute top-0 right-[18%] lg:right-[22%] xl:right-[24%] w-[280px] h-[80px] pointer-events-none z-30 hidden md:block"
       >
         <div className="absolute top-6 left-0 right-0 h-[3px] bg-gradient-to-r from-transparent via-slate-600/40 to-transparent shadow-[0_3px_5px_rgba(0,0,0,0.95)]" />
         <div className="absolute top-0 left-[25%] w-[3px] h-6 bg-gradient-to-b from-black via-slate-700 to-[#101726] border-r border-white/5" />
@@ -324,7 +324,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       {/* 5. Elegant SVG Soft Volumetric Light Beams (True Museum Fog Simulation) */}
       <motion.div 
         style={{ y: spotlightsY }}
-        className="absolute inset-0 w-full h-full pointer-events-none mix-blend-screen hidden lg:block z-12"
+        className="absolute inset-0 w-full h-full pointer-events-none mix-blend-screen hidden md:block z-12"
       >
         <motion.svg 
           className="w-full h-full" 
@@ -437,7 +437,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
       </motion.div>
 
       {/* 7. Interactive Floating Premium Curved Exhibition Frames (With Hanging Wires) */}
-      <div className="absolute inset-0 w-full h-full pointer-events-none hidden lg:block z-20">
+      <div className="absolute inset-0 w-full h-full pointer-events-none hidden md:block z-20">
         {floatingFrames.map((frame) => (
           <motion.div
             key={frame.id}
@@ -602,7 +602,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           {/* Glowing brand back-bloom halo (grows on general element focus) */}
           <div className="absolute -inset-10 bg-gradient-to-tr from-blue-600/25 via-pink-500/10 to-transparent blur-3xl rounded-full opacity-80 pointer-events-none z-0" />
           
-          <div className="relative w-[135px] h-[135px] md:w-[160px] md:h-[160px] rounded-[28px] bg-[#090D18]/90 backdrop-blur-xl border border-white/10 p-1 flex items-center justify-center overflow-hidden shadow-[0_22px_50px_rgba(0,0,0,0.85)] z-10">
+          <div className="relative w-[150px] h-[150px] md:w-[160px] md:h-[160px] rounded-[28px] bg-[#090D18]/90 backdrop-blur-xl border border-white/10 p-1 flex items-center justify-center overflow-hidden shadow-[0_22px_50px_rgba(0,0,0,0.85)] z-10">
             {/* Fine reflection line */}
             <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/[0.08] to-transparent pointer-events-none z-20" />
             
@@ -647,7 +647,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
             initial={{ opacity: 0, y: 25 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.95, delay: 0.18, ease: [0.16, 1, 0.3, 1] }}
-            className="font-sans text-4xl md:text-6xl font-bold tracking-tight text-white leading-[1.05] antialiased select-none"
+            className="font-sans text-5xl md:text-6xl font-bold tracking-tight text-white leading-[1.05] antialiased select-none w-full px-2 md:px-0"
           >
             Legacy That <br />
             <span className="bg-gradient-to-r from-white via-[#D8DEE8] to-white/70 bg-clip-text text-transparent">
@@ -664,7 +664,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.36, ease: [0.16, 1, 0.3, 1] }}
-            className="font-sans text-sm md:text-base text-[#D8DEE8]/70 max-w-xl mx-auto leading-relaxed"
+            className="font-sans text-base md:text-base text-[#D8DEE8]/70 max-w-xl mx-auto px-4 md:px-0 leading-relaxed"
           >
             For years, DCDC has brought together creators, innovators, designers, communicators, and engineers to build experiences that leave a lasting impact.
           </motion.p>
@@ -675,7 +675,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
           initial={{ opacity: 0, y: 15 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.52, ease: [0.16, 1, 0.3, 1] }}
-          className="flex flex-col sm:flex-row items-center gap-4 z-30"
+          className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto px-4 sm:px-0 z-30"
         >
           <motion.button
             id="hero-btn-journey"
@@ -707,67 +707,6 @@ export default function Hero({ onJoinClick }: HeroProps) {
           </motion.button>
         </motion.div>
  
-        {/* Mobile-Only Horizontal Scroll Carousel for Showcase Cards */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          className="relative z-30 lg:hidden w-[calc(100%+3rem)] -mx-6 mt-12 mb-4"
-        >
-          <div 
-            className="flex overflow-x-auto gap-5 px-6 pb-6 snap-x snap-mandatory [&::-webkit-scrollbar]:hidden" 
-            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none', WebkitOverflowScrolling: 'touch' }}
-          >
-            {floatingFrames.map((frame) => (
-              <div key={`mobile-frame-${frame.id}`} className="min-w-[260px] sm:min-w-[280px] flex-shrink-0 snap-center relative">
-                <motion.div
-                  className="w-full bg-gradient-to-b from-[#1c263c] via-[#0D1322] to-[#04060B] rounded-[24px] p-2.5 pb-3.5 border border-white/15 shadow-[0_15px_35px_rgba(0,0,0,0.8),_inset_0_1px_5px_rgba(255,255,255,0.25)] overflow-hidden flex flex-col relative"
-                  whileTap={{ scale: 0.98 }}
-                >
-                  {/* Glass Highlights */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/25 via-transparent to-black/40 pointer-events-none rounded-[23px]" />
-                  <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-blue-400/50 to-transparent pointer-events-none z-10" />
-                  
-                  {/* Image Container */}
-                  <div className="relative aspect-[16/10] w-full overflow-hidden rounded-[16px] bg-black border border-white/10 shadow-[inner_0_4px_12px_rgba(0,0,0,0.9)]">
-                    <img
-                      src={frame.image}
-                      alt={frame.title}
-                      loading="lazy"
-                      className="w-full h-full object-cover filter saturate-[0.8] contrast-[1.05]"
-                      referrerPolicy="no-referrer"
-                    />
-                    <div className="absolute inset-y-0 left-0 w-[12%] bg-gradient-to-r from-black/80 to-transparent pointer-events-none mix-blend-multiply" />
-                    <div className="absolute inset-y-0 right-0 w-[12%] bg-gradient-to-l from-black/80 to-transparent pointer-events-none mix-blend-multiply" />
-                    <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/95 via-black/30 to-transparent pointer-events-none" />
-                    
-                    <div 
-                      className="absolute inset-x-0 top-0 h-[45%] bg-gradient-to-b from-white/[0.18] to-transparent pointer-events-none mix-blend-screen opacity-90"
-                      style={{ clipPath: "ellipse(70% 100% at 50% 0%)" }}
-                    />
-                  </div>
-                  
-                  {/* Info Area */}
-                  <div className="pt-3 pb-0.5 px-2 select-none space-y-1 text-left relative z-20">
-                    <div className="flex items-center justify-between">
-                      <span className="font-mono text-[10px] tracking-[0.25em] text-[#3B82F6] font-extrabold">
-                        EXHIBIT 0{frame.id}
-                      </span>
-                    </div>
-                    
-                    <h4 className="font-sans text-[13px] font-black text-white tracking-tight leading-tight uppercase">
-                      {frame.title}
-                    </h4>
-                    
-                    <p className="font-mono text-[9px] tracking-wide text-gray-300 font-bold opacity-85">
-                      {frame.subtitle}
-                    </p>
-                  </div>
-                </motion.div>
-              </div>
-            ))}
-          </div>
-        </motion.div>
         <motion.div
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 1.8, repeat: Infinity, ease: "easeInOut" }}
